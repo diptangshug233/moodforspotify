@@ -99,7 +99,7 @@ const Divider = styled.div`
 const LOGIN_URI =
   process.env.NODE_ENV !== "production"
     ? "http://localhost:8888/login"
-    : "https://mood-for-spotify.herokuapp.com/login";
+    : "https://mood-for-spotify.onrender.com/login";
 
 const Login = () => {
   return (
